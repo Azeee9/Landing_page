@@ -111,3 +111,22 @@ a {
     width: 200px;
     text-align: center;
 }
+
+/* quote style */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 120px 300px;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: "light italic";
+}
+
+.quote .author {
+    font-weight: bold;
+    align-self: self-end;
+    margin-top: -30px;
+}
