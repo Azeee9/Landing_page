@@ -130,3 +130,52 @@ a {
     align-self: self-end;
     margin-top: -30px;
 }
+
+/* call to action style */
+
+.last {
+    display: flex;
+    padding: 120px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blu {
+    background-color: #3882f6;
+    padding: 30px 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.last button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: #e5e7eb solid 2px;
+    border-radius: 8px;
+    padding: 8px 40px;
+    align-self: center;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+    color: #e5e7eb;
+}
